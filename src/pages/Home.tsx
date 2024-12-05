@@ -15,7 +15,7 @@ export default function Home() {
           className="space-y-8"
         >
           <motion.h1
-            className="text-4xl mb-8 sm:text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-white"
+            className="text-4xl mb-8 sm:text-3xl md:text-5xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-purple to-pink-600"
             animate={{
               backgroundPosition: ['0%', '100%', '0%'],
             }}
@@ -48,7 +48,7 @@ export default function Home() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://github.com"
+              href="https://github.com/Mohdamanma"
               className="text-gray-400 hover:text-white transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,7 +58,7 @@ export default function Home() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/amanma"
               className="text-gray-400 hover:text-blue-800 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -84,19 +84,9 @@ export default function Home() {
             <img
               src={pic}
               alt="Mohammed Aman"
-              className="w-full h-full rounded-full object-cover ring-4 ring-indigo-500/50"
+              className="w-full  h-full rounded-full object-cover ring-4 ring-indigo-500/50"
             />
-            <motion.div
-              className="absolute inset-0 rounded-full bg-indigo-500/20"
-              animate={{
-                scale: [1, 1.2, 1],
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                repeatType: "reverse"
-              }}
-            />
+
           </motion.div>
         </motion.div>
       </div>
